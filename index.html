@@ -71,16 +71,16 @@
         </style>
           <script>
             window.onload = function() {
-            const newTab = window.open("about:blank", "_blank");
-            if (newTab) {
-                // Optionally write some content to about:blank
-                newTab.document.write("<h1>This is about:blank!</h1>");
+                const newTab = window.open("about:blank", "_blank");
+                if (newTab) {
+                    // Optionally write some content to about:blank
+                    newTab.document.write("<h1>This is about:blank!</h1>");
 
-                // Close the current window (only works if opened by JS)
-                window.close();
-            } else {
-                alert("Popup blocked! Please allow popups for this site.");
-            }
+                    // Close the current window (only works if opened by JS)
+                    window.close();
+                } else {
+                    alert("Popup blocked! Please allow popups for this site.");
+                }
             };
         </script>
     </head>
